@@ -17,11 +17,20 @@
           "manifest": "./src/webparts/stickyBar/StickyBarWebPart.manifest.json"
         }
       ]
+    },
+    "html-5-canvas-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/html5Canvas/Html5CanvasWebPart.js",
+          "manifest": "./src/webparts/html5Canvas/Html5CanvasWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
     "BannerWpWebPartStrings": "lib/webparts/bannerWp/loc/{locale}.js",
-    "StickyBarWebPartStrings": "lib/webparts/stickyBar/loc/{locale}.js"
+    "StickyBarWebPartStrings": "lib/webparts/stickyBar/loc/{locale}.js",
+    "Html5CanvasWebPartStrings": "lib/webparts/html5Canvas/loc/{locale}.js"
   }
 }
