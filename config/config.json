@@ -9,10 +9,19 @@
           "manifest": "./src/webparts/bannerWp/BannerWpWebPart.manifest.json"
         }
       ]
+    },
+    "sticky-bar-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/stickyBar/StickyBarWebPart.js",
+          "manifest": "./src/webparts/stickyBar/StickyBarWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "BannerWpWebPartStrings": "lib/webparts/bannerWp/loc/{locale}.js"
+    "BannerWpWebPartStrings": "lib/webparts/bannerWp/loc/{locale}.js",
+    "StickyBarWebPartStrings": "lib/webparts/stickyBar/loc/{locale}.js"
   }
 }
